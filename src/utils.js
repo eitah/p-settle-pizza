@@ -20,9 +20,9 @@ export const makeSauce = async () => {
 };
 
 export const grateCheese = async sauce => {
-  await wait(200);
   // console.log("(first call) sauce is", sauce);
   // return Promise.reject(new Error("funky cheese"));
+  await wait(200);
   if (sauce === "cream") {
     return "parmesan";
   }

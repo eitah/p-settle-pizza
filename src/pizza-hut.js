@@ -6,6 +6,7 @@ import { cook } from "./1.await";
 // import { cook } from "./6.reject.reason";
 // import { cook } from "./7.robust.reject.reason";
 // import { cook } from "./8.business.logic";
+// import { cook } from "./9.promise.all";
 
 export const makePizza = async () => {
   console.time("pizza cook time");
